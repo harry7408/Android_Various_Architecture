@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ShapeAppearanceOverlay.Material3.Button.Basic" parent="Widget.Material3.Button">
+        <item name="android:paddingTop">@dimen/vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/vertical_padding</item>
+        <item name="android:paddingEnd">@dimen/horizontal_padding</item>
+        <item name="android:paddingStart">@dimen/horizontal_padding</item>
+        <item name="android:layout_marginStart">@dimen/margin_16</item>
+        <item name="android:layout_marginEnd">@dimen/margin_16</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+
+
+    <style name="ShapeAppearanceOverlay.Material3.Button.MVC" parent="ShapeAppearanceOverlay.Material3.Button.Basic">
+        <item name="backgroundTint">#00B7FF</item>
+
+    </style>
+
+    <style name="ShapeAppearanceOverlay.Material3.Button.MVP" parent="ShapeAppearanceOverlay.Material3.Button.Basic">
+        <item name="backgroundTint">#0CCF6A</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.Material3.Button.MVVM" parent="ShapeAppearanceOverlay.Material3.Button.Basic">
+        <item name="backgroundTint">#6C12C6</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.Material3.Button.MVI" parent="ShapeAppearanceOverlay.Material3.Button.Basic">
+        <item name="backgroundTint">#E2BF0B</item>
+    </style>
+</resources>
